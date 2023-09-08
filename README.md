@@ -21,7 +21,7 @@ python manage.py runserver
 
 ### Примеры запросов:
 POST - запрос на добавление новой публикации в группу.
-POST (http://localhost:port/api/v1/posts/)
+#### POST http://localhost:port/api/v1/posts/
   {
     "text": "В ближайшем будующем будут править роботы.",
     "group": 1
