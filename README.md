@@ -26,7 +26,9 @@ POST http://localhost:port/api/v1/posts/
   "text": "В ближайшем будующем будут править роботы.",
   "group": 1
 }
+
 Ответ:
+
 {
     "id": 2,
     "author": "user_name",
