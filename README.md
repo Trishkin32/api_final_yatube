@@ -38,17 +38,17 @@ python manage.py runserver
 POST - запрос на добавление новой публикации в группу.
 #### POST http://localhost:port/api/v1/posts/
 
-``json
+```json
 {
   "text": "В ближайшем будующем будут править роботы.",
   "group": 1
 }
-``
+```
 
 
 #### Ответ:
 
-``json
+```json
 {
   "id": 2,
   "author": "user_name",
@@ -57,4 +57,4 @@ POST - запрос на добавление новой публикации в
   "image": null,
   "group": 1
 }
-``
+```
